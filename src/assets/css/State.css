@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------------------- */
+/* State
+/* ------------------------------------------------------------------------- */
+/* state 6 */
+.box {
+  width: 20rem; height: 20rem;
+  display: flex; align-items: center; justify-content: center;
+  margin: 1rem 0;
+  border: 1px solid var(--BK);
+  transition: all .15s;
+
+  &.blue {background-color: var(--primary); color: var(--WT);}
+  &.red {background-color: red; color: var(--WT);}
+}
+
+
+/* state 7 */
+.mode {
+  width: 100%; height: 100dvh;
+  background-color: var(--WT);
+
+  &.dark {background-color: var(--BK); color: var(--WT);}
+}
+
+
+/* state 8 */

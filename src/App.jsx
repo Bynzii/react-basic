@@ -1,13 +1,33 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
-import Props from './assets/components/Props'
+// import Props from './assets/components/Props'
+// import State from './assets/components/State'
+// import {State2, State3} from './assets/components/State23'
+// import {State4, State5, State6, State7} from './assets/components/State4567'
+import State8 from './assets/components/State8'
+
+
 import './App.css'
 
 function App() {
 
   return(
     <>
-      <Props />
+      {/* 📍 각 파일 안에 있는 함수(컴포넌트)가 실행되는 것 */}
+
+      {/* <Props /> */}
+      {/* <State /> */}
+
+      {/* ✅ State2,3 : -,+,초기화 버튼 */}
+      {/* <State2 /> <State3 /> */}
+
+      {/* ✅ 4.텍스트 입력표시 / 5.토글버튼,삼항연산자(조건부 렌더링) / 6.클래스이름 조건부렌더링 / 7.다크모드 */}
+      {/* <State4 /><State5 /><State6 /><State7 /> */}
+
+      {/* ✅ 상태 업데이트 + 외부함수 */}
+      <State8 />
+
+
     </>
   )
 }
