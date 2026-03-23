@@ -62,6 +62,26 @@ body{
 body {padding: 5rem;}
 .cont + .cont {margin-top: 3rem;}
 
+/*===== flex utility =====*/
+.u_column {display: flex; flex-direction: column;}
+
+/* x축 중앙 */
+.fx1 {flex: 1;}
+.u_fxCenter {display: flex; align-items: center; justify-content: center;}
+.u_fxBetween {display: flex; align-items: center; justify-content: space-between;}
+.u_fxStart {display: flex; align-items: center; justify-content: flex-start;}
+.u_fxEnd {display: flex; align-items: center; justify-content: flex-end;}
+/* y축 */
+.u_fyStart {display: flex; align-items: flex-start;}
+
+/* gap */
+.g20 {gap: 2rem;}
+
+/* margin-top */
+.mt20 {margin-top: 2rem;}
+
+
+
 
 /* input */
 input {

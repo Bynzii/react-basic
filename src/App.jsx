@@ -4,7 +4,10 @@
 // import State from './assets/components/State'
 // import {State2, State3} from './assets/components/State23'
 // import {State4, State5, State6, State7} from './assets/components/State4567'
-import State8 from './assets/components/State8'
+// import State8 from './assets/components/State8'
+// import State9 from './assets/components/State9'
+// import {State10,State11,State12} from './assets/components/State10'
+import StateMenu from './assets/components/StateMenu'
 
 
 import './App.css'
@@ -25,8 +28,16 @@ function App() {
       {/* <State4 /><State5 /><State6 /><State7 /> */}
 
       {/* ✅ 상태 업데이트 + 외부함수 */}
-      <State8 />
+      {/* <State8 /> */}
 
+      {/* ✅ 투두리스트(간단) */}
+      {/* <State9 /> */}
+
+      {/* ✅ 로그인 상태관리 */}
+      {/* <State10 /> <State11 /> <State12 /> */}
+
+      {/* ✅ 메뉴판 */}
+      <StateMenu/>
 
     </>
   )
