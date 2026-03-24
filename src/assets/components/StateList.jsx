@@ -1,13 +1,13 @@
 
 import '../css/State.css'
 //
-const List = ({menus, onSelectmenu})=> {
+const List = ({menus, onSelectMenu})=> {
   return (
     <>
       {menus.map((menu) => (
-        <div className="item" key={menu.id} onClick={()=> onSelectmenu(menu.id)}>
+        <div className='item__wrap' key={menu.id} onClick={()=>onSelectMenu(menu.id)}>
           <figure>
-            <img src={menu.img} alt={menu.name} />
+            <img className='itemImg' src={menu.img} alt={menu.name} />
           </figure>
           <h3>{menu.name}</h3>
           <p>{menu.price}</p>

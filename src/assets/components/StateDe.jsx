@@ -9,7 +9,7 @@ const MenuDe = ({menu, onBack}) => {
     <div>
       <button type="button" onClick={onBack}>뒤로가기</button>
 
-      <div className="box">
+      <div className="detail__wrap">
         <figure>
           <img src={menu.img} alt={menu.name} />
           <h3>{menu.name}</h3>

@@ -22,6 +22,45 @@
   &.dark {background-color: var(--BK); color: var(--WT);}
 }
 
-
 /* state 9 */
 .delBtn, .btn {margin-left: 2rem;}
+
+
+/*===== State Menu =====*/
+/* StateNav */
+.navlist {
+  margin-bottom: 3rem;
+  display: flex; align-items: center; justify-content: center; 
+  gap: 2rem; 
+
+  li {
+    padding: 0.8rem 3rem;
+    border: 1px solid var(--border); border-radius: 10rem;
+    cursor: pointer;
+    transition: all .15s;
+
+    &:hover {border-color: var(--primary); color: var(--primary); font-weight: 500;}
+    &:focus {background-color: var(--primary); border-color: var(--primary); color: var(--WT); font-weight: 500;}
+  }
+}
+
+.menu__wrap {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  
+  .item__wrap {
+    p {color: rgb(200, 0, 0);}
+    span {color: gray;}
+  }
+  
+  /* StateList */
+  .itemImg {
+    aspect-ratio: 1; 
+    object-fit: cover; object-position: right; 
+
+    &.center {object-position: center;}
+  }
+}
+
+
+
