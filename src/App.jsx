@@ -7,7 +7,9 @@
 // import State8 from './assets/components/State8'
 // import State9 from './assets/components/State9'
 // import {State10,State11,State12} from './assets/components/State10'
-import StateMenu from './assets/components/StateMenu'
+// import StateMenu from './assets/components/StateMenu'
+// import Game from './assets/components/StateGame'
+import Ex1 from './assets/components/Ex1'
 
 
 import './App.css'
@@ -37,7 +39,17 @@ function App() {
       {/* <State10 /> <State11 /> <State12 /> */}
 
       {/* ✅ 메뉴판 */}
-      <StateMenu/>
+      {/* <StateMenu/> */}
+
+      {/* ✅ 가위바위보 게임 */}
+      {/* <Game /> */}
+
+      {/* ✅ 가위바위보 게임 */}
+      <Ex1 />
+
+
+
+
 
     </>
   )
