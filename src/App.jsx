@@ -9,7 +9,10 @@
 // import {State10,State11,State12} from './assets/components/State10'
 // import StateMenu from './assets/components/StateMenu'
 // import Game from './assets/components/StateGame'
-import Ex1 from './assets/components/Ex1'
+// import Ex1 from './assets/components/Ex1'
+// import Ex2 from './assets/components/Ex2'
+// import ExTimer from './assets/components/ExTimer'
+import CountDown from './assets/components/ExTimer2'
 
 
 import './App.css'
@@ -45,7 +48,14 @@ function App() {
       {/* <Game /> */}
 
       {/* ✅ 가위바위보 게임 */}
-      <Ex1 />
+      {/* <Ex1 /> */}
+
+      {/* ✅ useEffect */}
+      {/* <Ex2/> */}
+
+      {/* ✅ 타이머 */}
+      {/* <ExTimer/> */}
+      <CountDown />
 
 
 
